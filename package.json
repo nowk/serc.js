@@ -1,7 +1,7 @@
 {
   "name": "serc.js",
-  "version": "0.0.0",
   "description": "Selenium RC process wrapper",
+  "version": "0.0.1",
   "main": "index.js",
   "dependencies": {},
   "scripts": {
