@@ -1,7 +1,8 @@
 #! /usr/bin/env node
 /* jshint laxcomma: true */
 
-var currentversionjar = 'http://selenium.googlecode.com/files/selenium-server-standalone-2.37.0.jar';
+var VERSION = '2.37.0';
+var currentversionjar = 'http://selenium.googlecode.com/files/selenium-server-standalone-'+VERSION+'.jar';
 
 var http = require('http')
   , fs   = require('fs')
@@ -12,7 +13,7 @@ var installfilepath = path.normalize(__dirname+'/../bin/selenium-server.jar');
 
 var host = {
   hostname: 'selenium.googlecode.com', 
-  path:     '/files/selenium-server-standalone-2.37.0.jar'
+  path:     '/files/selenium-server-standalone-'+VERSION+'.jar'
 };
 
 
