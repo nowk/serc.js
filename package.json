@@ -4,10 +4,11 @@
   "version": "0.0.1",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "make test"
   },
   "devDependencies": {
     "horaa": "~0.1.2-alpha",
+    "mocha": "^1.21.4",
     "sinon": "~1.7.3",
     "soda": "~0.2.5"
   },
